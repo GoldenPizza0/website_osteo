@@ -12,7 +12,7 @@
 .num_button{
     padding: 0.75rem 1.5rem;
     border: 1px solid;
-    background-color: none;
+    background-color: white;
 }
 
 .num_button:hover{
