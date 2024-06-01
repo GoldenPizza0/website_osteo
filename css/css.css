@@ -50,9 +50,7 @@
 
 /*BODY*/
 .contain {
-    width: 90%;
-    padding-right: .75rem;
-    padding-left: .75rem;
+    width: 99%;
 }
 
 .mail_button{
@@ -82,3 +80,21 @@
     float: left;
 }
 
+.p2{
+    background-image: url('../img/montagne.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    width: 100%;
+    height: auto;
+    font-size: 50px;
+    padding: 4rem;
+    text-align: left;
+    padding-left: 15rem;
+}
+
+.littlefont{
+    font-size: 20px;
+}
