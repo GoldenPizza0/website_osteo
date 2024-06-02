@@ -1,0 +1,292 @@
+/*HEADER*/
+.imghg{
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.div_button{
+    margin: 2rem;
+    text-align: center;
+}
+
+.num_button{
+    padding: 0.65rem 1.25rem;
+    border: 1px solid;
+    background-color: none;
+}
+
+.num_button:hover{
+    padding: 0.65rem 1.25rem;
+    border: 1px solid;
+    background-color: black;
+    color:white;
+    transition: all .4s ease
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menug{
+    display: flex;
+    justify-content: space-evenly;
+/*pour les photos ?    position: absolute;*/
+}
+
+nav{
+    position: sticky;
+}
+
+.nav{
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+}
+
+.sous {
+    display: none;
+    position: absolute;
+    background-color: white;
+    font-size: .813rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: .625rem;
+}
+
+.sous li {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.sous li a {
+    color: black;
+    text-decoration: none;
+}
+
+.sous li:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.nav:hover .sous {
+    display: block;
+}
+
+.imghd{
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+/*BODY*/
+.text-end{
+    text-align: end;
+}
+
+.text-start{
+    text-align: start;
+}
+
+.contain {
+    width: 99%;
+}
+
+.p1{
+    text-align: center;
+    padding-top: 6rem;
+
+}
+
+.mail_button{
+    padding: 0.75rem 1.5rem;
+    border: 1px solid;
+    background-color: black;
+    color: white;
+}
+
+.mail_button:hover{
+    padding: 0.75rem 1.5rem;
+    border: 1px solid;
+    background-color: grey;
+    color:white;
+    transition: all .4s ease
+}
+
+.horaires{
+    padding: 0rem;
+}
+
+.align_r{
+    float: right;
+}
+
+.align_l{
+    float: left;
+}
+
+.p2{
+    background-image: url('../img/montagne.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    width: 100%;
+    height: auto;
+    font-size: 3.125rem;
+    padding: 4rem;
+    text-align: left;
+    padding-left: 15rem;
+}
+
+.littlefont{
+    font-size: 1.25rem;
+}
+
+.butp2 {
+    font-size: 0.938rem;
+    text-align: left;
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start;
+}
+
+.butmarg{
+    margin-right: 1.5rem;
+    background-color: transparent;
+    color: white;
+    border: 1px solid;
+}
+
+.imgp3{
+    width: 4.375rem;
+    height: 3.125rem;
+    margin: 1.5rem;
+}
+
+.p3{
+    text-align: center;
+    line-height: 2;
+    padding-left: 16.75rem;
+    padding-right: 16.75rem;
+}
+
+.p4{
+    text-align: center;
+    line-height: 2;
+    padding-left: 12.25rem;
+    padding-right: 12.25rem;
+    padding-top: 5rem;
+}
+
+.imgp5{
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.p5{
+    text-align: center;
+    padding-left: 12.25rem;
+    padding-right: 12.25rem;
+    list-style-position: inside;
+}
+
+.imgp6{
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.p6{
+    text-align: center;
+    padding-left: 12.25rem;
+    padding-right: 12.25rem;
+}
+
+.imgp7{
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.p7{
+    text-align: center;
+    padding-left: 12.25rem;
+    padding-right: 12.25rem;
+}
+
+.imgp8{
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.p8{
+    text-align: center;
+    padding-left: 12.25rem;
+    padding-right: 12.25rem;
+}
+
+.imgp9{
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.p9{
+    text-align: center;
+    padding-left: 12.25rem;
+    padding-right: 12.25rem;
+}
+
+.marginp10{
+    margin-top: 5rem;
+}
+
+.p10{
+    text-align: center;
+    padding-top: 11rem;
+    padding-left: 6rem;
+    padding-right: 6rem
+}
+
+.previous{
+    font-size: 4rem;
+    text-align: center;
+    border: none;
+}
+
+.previous:hover {
+    color: grey;
+}
+
+.previous:active {
+    color: black;
+}
+
+.next{
+    font-size: 4rem;
+    text-align: center;
+    border: none;
+    background-color: none;
+}
+
+.next:hover {
+    color: grey;
+}
+
+.next:active {
+    color: black;
+}
+
+.carousel-comment {
+    display: none;
+}
+.carousel-comment.active {
+    display: block;
+}
+
+.paddingp11{
+    padding-top: 10rem;
+}
+
+.p11{
+    padding-left: 8rem;
+}
