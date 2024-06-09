@@ -1,0 +1,364 @@
+/*ALL*/
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Empêche le défilement horizontal */
+    font-size: 15px;
+}
+
+header {
+    width: 100%; /* Assurez-vous que l'en-tête prend toute la largeur */
+}
+
+.row {
+    width: 100%;
+    margin: 0;
+}
+
+/*HEADER*/
+.imghg{
+    padding: 24px;
+    text-align: center;
+}
+
+.div_button{
+    margin: 32px;
+    text-align: center;
+}
+
+.num_button{
+    padding: 10.4px 20px;
+    border: 1px solid;
+    background-color: white;
+}
+
+.num_button:hover{
+    padding: 10.4px 20px;
+    border: 1px solid;
+    background-color: black;
+    color:white;
+    transition: all .4s ease
+}
+
+.menud{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav{
+    position: relative;
+    position: -webkit-sticky; /* Pour Safari */ 
+    position: sticky;
+    background-color: white;
+    top: 0;
+    z-index: 1;
+    padding-top: 15px;
+}
+
+.nav { 
+    text-decoration: none; 
+    position: relative; 
+    display: inline-block; 
+    color: #000;
+    font-size: 13px;
+} 
+
+.nav:hover{
+    text-decoration: none;
+    color: #000;
+}
+
+.sous {
+    display: none;
+    position: absolute;
+    background-color: white;
+    font-size: 13px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 10px;
+}
+
+.sous li {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.sous li a {
+    color: black;
+    text-decoration: none;
+}
+
+.sous li:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.nav:hover .sous {
+    display: block;
+}
+
+.menug{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imghd{
+    height: 20px;
+    width: 20px;
+}
+
+.butnav{
+    color: #000;
+    background-color: white;
+    margin-right: 0;
+    font-size: 25px;
+    position: fixed;
+}
+
+/*BODY*/
+.text-end{
+    text-align: end;
+}
+
+.text-start{
+    text-align: start;
+}
+
+.contain {
+    width: 98%;
+}
+
+.mail_button{
+    padding: 12px 24px;
+    border: 1px solid;
+    background-color: black;
+    color: white;
+}
+
+.mail_button:hover{
+    padding: 0.75rem 1.5rem;
+    border: 1px solid;
+    background-color: grey;
+    color:white;
+    transition: all .4s ease
+}
+
+.littlefont{
+    font-size: 20px;
+}
+
+.butp2num {
+    background-color: transparent;
+    color: white;
+    justify-content: flex-start; 
+    text-align: left;
+    display: flex;
+    text-align: center;
+    font-size: 23px;
+    padding: 12px 20px;
+    border: 1px solid;
+}
+
+.butp2num:hover{
+    padding: 12px 20px;
+    border: 1px solid;
+    background-color: black;
+    color:white;
+    transition: all .4s ease
+}
+
+.butp2mail {
+    justify-content: flex-start; 
+    text-align: left;
+    display: flex;
+    text-align: center;
+    font-size: 23px;
+    padding: 12px 20px;
+    border: 1px solid;
+    background-color: black;
+}
+
+.butp2mail:hover{
+    padding: 12px 20px;
+    border: 1px solid;
+    background-color: white;
+    color:black;
+    transition: all .4s ease
+}
+
+.butmarg{
+    background-color: transparent;
+    color: white;
+    border: 1px solid;
+}
+
+.imgpcommun{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    text-align: center;
+}
+
+.p1{
+    text-align: center;
+    padding-top: 96px;
+
+}
+
+.p2{
+    background-image: url('../img/montagne.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    width: 100%;
+    height: auto;
+    font-size: 50px;
+    padding: 64px;
+    text-align: left;
+    padding-left: 240px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.pintro{
+    text-align: center;
+    line-height: 2;
+    padding-left: 9vh;
+    padding-right: 9vh;
+    padding-top: 2vh;
+}
+
+.p5{
+    text-align: center;
+    padding-left: 9vh;
+    padding-right: 9vh;
+    list-style-position: inside;
+}
+
+.pcommun{
+    text-align: center;
+    padding-left: 9vh;
+    padding-right: 9vh;
+}
+
+.p10{
+    text-align: center;
+    padding-top: 165px;
+    padding-left: 96px;
+    padding-right: 96px;
+}
+
+.previous{
+    font-size: 64px;
+    text-align: center;
+    border: none;
+}
+
+.previous:hover {
+    color: grey;
+}
+
+.previous:active {
+    color: black;
+}
+
+.next{
+    font-size: 64px;
+    text-align: center;
+    border: none;
+    background-color: none;
+}
+
+.next:hover {
+    color: grey;
+}
+
+.next:active {
+    color: black;
+}
+
+.carousel-indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 0 5px;
+    background-color: #000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.carousel-indicators .active {
+    width: 7px;
+    height: 7px;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+.form{
+    text-align: center;
+    padding-top: 55px;
+    padding-left: 96px;
+    padding-right: 96px;
+}
+
+
+.celluleform{
+    margin-top: 80px;
+    border: none;
+}
+
+.form-container {
+    text-align: center;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #000;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-bottom: 2px solid #000;
+}
+
+.btn-submit {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.btn-submit:hover {
+    background-color: #444;
+}
+
+.map{
+    width: 102%;
+    height: 400px;
+    border:0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/*FOOTER*/
+footer{
+    padding: 15px;
+    text-align: center;
+    font-size: 13px;
+}
