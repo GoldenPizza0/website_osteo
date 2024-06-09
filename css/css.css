@@ -113,8 +113,8 @@ nav{
     background-color: white;
     margin-right: 0;
     font-size: 25px;
-    padding-left: 0.25vh;
-    padding-right: 0.25vh;
+    padding-left: auto;
+    padding-right: auto;
     position: fixed;
 }
 
