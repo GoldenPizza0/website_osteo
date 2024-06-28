@@ -306,6 +306,7 @@ header {
     margin: 5vh auto;
     padding: 1.042vw;
     border: 0.063rem solid #000;
+    width: 75%;
 }
 
 .form-control {
