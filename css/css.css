@@ -7,7 +7,8 @@ html, body {
 }
 
 header {
-    width: 100%; /* Assurez-vous que l'en-tête prend toute la largeur */
+    width: 100%; /*Assurez-vous que l'en-tête prend toute la largeur */
+    /* width: 98%; */
 }
 
 .row {
@@ -32,7 +33,21 @@ header {
     background-color: white;
 }
 
+.num_buttontransparent{
+    padding: 0.938rem 1.563rem;
+    border: 0.063rem solid;
+    background-color: transparent;
+}
+
 .num_button:hover{
+    padding: 0.938rem 1.563rem;
+    border: 0.063rem solid;
+    background-color: black;
+    color:white;
+    transition: all .4s ease
+}
+
+.num_buttontransparent:hover{
     padding: 0.938rem 1.563rem;
     border: 0.063rem solid;
     background-color: black;
@@ -104,14 +119,13 @@ header {
 }
 
 .imghd{
-    height: 2vh;
-    width: 1.042vw;
+    height: 3vh;
+    width: auto;
 }
 
 .butnav{
     color: #000;
     background-color: white;
-    margin-right: 0;
     font-size: 1.563rem;
     padding-left: auto;
     padding-right: auto;
@@ -193,7 +207,9 @@ header {
 
 .p1{
     text-align: center;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .p2{
@@ -353,13 +369,22 @@ footer{
 @media (max-width: 991px) { 
     /*ALL*/
     html, body {
-        font-size: 2rem;
+        font-size: 1.5rem;
         /* overflow-x: hidden; */
     }
 
     /*HEADER*/
     .headerbut{
-        padding-left: 40vw;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    h5 b{
+        font-size: 2rem;
+    }
+
+    h6{
+        font-size: 2rem;
     }
     
     /*BODY*/
