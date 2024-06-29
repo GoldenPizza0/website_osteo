@@ -427,7 +427,7 @@ footer{
     }
 
     .carousel-indicators li {
-        width: 0.75vw;
+        width: 0.4vh;
         height: 0.8vw;
         margin: 0 0.5vw;
     }
