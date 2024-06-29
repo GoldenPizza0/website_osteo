@@ -428,12 +428,12 @@ footer{
 
     .carousel-indicators li {
         width: 0.8vh;
-        height: 0.7vw;
+        height: 0.75vw;
         margin: 0 0.5vw;
     }
 
     .carousel-indicators .active {
         width: 0.8vh;
-        height: 0.7vw;
+        height: 0.75vw;
     }
 }
