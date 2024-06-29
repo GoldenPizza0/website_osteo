@@ -427,13 +427,13 @@ footer{
     }
 
     .carousel-indicators li {
-        width: 2vw;
-        height: 0.8vh;
+        width: 0.8vh;
+        height: 0.8vw;
         margin: 0 0.5vw;
     }
 
     .carousel-indicators .active {
-        width: 0.9vw;
-        height: 0.7vh;
+        width: 0.8vh;
+        height: 0.8vw;
     }
 }
