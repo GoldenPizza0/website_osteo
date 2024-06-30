@@ -433,4 +433,11 @@ footer{
         width: 0.4vh;
         height: 0.8vw;
     }
+
+    .carousel-control-next-icon {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background: no-repeat 50% / 100% 100%;
+    }
 }
