@@ -109,6 +109,10 @@ header {
     background-color: #ddd;
 }
 
+.burgernav{
+    padding-left: 2vw;
+}
+
 /* Show the dropdown menu on hover */
 .nav:hover .sous {
     display: block;
@@ -216,6 +220,12 @@ header {
     height: auto;
     margin-top: 2vh;
     margin-bottom: 2vh;
+}
+
+@supports (-webkit-touch-callout: none) {
+    .p2 {
+        background-attachment: scroll;
+    }
 }
 
 .textp2{
@@ -364,6 +374,16 @@ footer{
     }
 
     /*HEADER*/
+    header {
+        text-align: center;
+    }
+
+    .imghg{
+        padding: 1.5rem;
+        width : 250px;
+        height : 175px;
+    }
+
     .headerbut{
         text-align: center;
         padding-left: 0;
@@ -431,6 +451,6 @@ footer{
 
     .btn{
         font-size: 1.5rem;
-        padding: .5rem 1.2rem;
+        padding: .5rem 1rem;
     }
 }
