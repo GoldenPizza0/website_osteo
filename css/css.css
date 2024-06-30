@@ -206,7 +206,7 @@ header {
     background-attachment: fixed;
     background-repeat: no-repeat;
     color: white;
-    width: 103%;
+    width: auto;
     height: auto;
     margin-top: 2vh;
     margin-bottom: 2vh;
