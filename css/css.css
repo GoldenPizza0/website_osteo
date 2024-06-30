@@ -180,19 +180,6 @@ header {
     margin-left: 11.25vw;
 }
 
-.butp2num {
-    background-color: transparent;
-    color: white;
-    border: 0.063rem solid;
-}
-
-.butp2num:hover{
-    background-color: black;
-    color:white;
-    border: 0.063rem solid;
-    transition: all .4s ease
-}
-
 .butmarg{
     background-color: transparent;
     color: white;
@@ -399,16 +386,26 @@ footer{
 
     .num_button{
         padding: 0.938rem 2.6rem;
-        border: 0.063rem solid;
-        background-color: white;
     }
     
     .num_button:hover{
         padding: 0.938rem 2.6rem;
-        border: 0.063rem solid;
-        background-color: black;
-        color:white;
-        transition: all .4s ease
+    }
+
+    .mail_button{
+        padding: 0.938rem 1.8rem;
+    }
+    
+    .mail_button:hover{
+        padding: 0.938rem 1.8rem;
+    }
+
+    .num_buttontransparent{
+        padding: 0.938rem 2.6rem;
+    }
+    
+    .num_button:hover{
+        padding: 0.938rem 2.6rem;
     }
 
     .text-end{
@@ -427,13 +424,13 @@ footer{
     }
 
     .carousel-indicators li {
-        width: 0.4vh;
+        width: 0.4vh; /*a voir*/
         height: 0.8vw;
         margin: 0 0.5vw;
     }
 
     .carousel-indicators .active {
-        width: 0.75vw;
+        width: 0.75vh;
         height: 0.8vw;
     }
 }
