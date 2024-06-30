@@ -430,7 +430,7 @@ footer{
     }
 
     .carousel-indicators .active {
-        width: 0.75vh;
+        width: 0.4vh;
         height: 0.8vw;
     }
 }
