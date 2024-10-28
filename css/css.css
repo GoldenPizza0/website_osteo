@@ -1,15 +1,12 @@
-/*ALL*/
+/* ALL */
 html, body {
-    margin: 0;
-    padding: 0;
     font-size: 1rem;
     scroll-behavior: smooth;
     /* overflow-x: hidden; */
 }
 
 header {
-    width: 100%; /*Assurez-vous que l'en-tête prend toute la largeur */
-    /* width: 98%; */
+    width: 100%;
 }
 
 .row {
@@ -17,69 +14,67 @@ header {
     margin: 0;
 }
 
-/*HEADER*/
-.imghg{
+/* HEADER */
+.imghg {
     padding: 1.5rem;
     text-align: center;
 }
 
-.div_button{
+.div_button {
     margin: 2rem;
     text-align: center;
 }
 
-.num_button{
+.num_button, .num_buttontransparent {
     padding: 0.938rem 1.563rem;
     border: 0.063rem solid;
+    transition: all 0.4s ease;
+}
+
+.num_button {
     background-color: white;
 }
 
-.num_buttontransparent{
-    padding: 0.938rem 1.563rem;
-    border: 0.063rem solid;
+.num_buttontransparent {
     background-color: transparent;
 }
 
-.num_button:hover{
-    padding: 0.938rem 1.563rem;
-    border: 0.063rem solid;
+.num_button:hover, .num_buttontransparent:hover {
     background-color: black;
-    color:white;
-    transition: all .4s ease
+    color: white;
 }
 
-.num_buttontransparent:hover{
-    padding: 0.938rem 1.563rem;
-    border: 0.063rem solid;
-    background-color: black;
-    color:white;
-    transition: all .4s ease
-}
-
-.menud{
+.menud {
     display: flex;
     justify-content: space-evenly;
 }
 
-.contain-nav{
-    position: relative;
-    position: -webkit-sticky; /* Pour Safari */ 
+.contain-nav, .contain-nav-xs {
     position: sticky;
+    position: -webkit-sticky; /*pour safari*/
     background-color: white;
     top: 0;
     z-index: 1;
+}
+
+.contain-nav {
     padding-top: 1.65vh;
 }
 
-.nav { 
-    text-decoration: none; 
-    position: relative; 
-    display: inline-block; 
+.contain-nav-xs {
+    height: 7.5vh;
+    padding-top: 2vh;
+}
+
+.nav {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
     color: #000;
     font-size: 0.813rem;
 } 
 
-.nav:hover{
+.nav:hover {
     text-decoration: none;
     color: #000;
 }
@@ -96,20 +91,19 @@ header {
 
 .sous li {
     color: black;
-    text-decoration: none;
-    display: block;
-}
-
-.sous li a {
-    color: black;
-    text-decoration: none;
 }
 
 .sous li:hover {
     background-color: #ddd;
 }
 
-.burgernav{
+.sous li, .sous li a{
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.burgernav {
     padding-left: 2vw;
 }
 
@@ -118,108 +112,93 @@ header {
     display: block;
 }
 
-.menug{
+.menug {
     display: flex;
     justify-content: space-evenly;
 }
 
-.imghd{
+.imghd {
     height: 3vh;
     width: auto;
 }
 
 .btn-secondary {
-    color: #fff;
+    color: black;
     background-color: white;
     border-color: black;
-    color: black;
 }
 
-.reh{
+.reh {
     position: fixed;
-    bottom: 3vh;
-    right: 3vw;
+    bottom: 1.5vh;
+    right: 1vw;
     z-index: 1000;
 }
 
-.headerbut{
+.headerbut {
     padding-left: 15vw;
 }
 
-.contain-nav-xs{
+/* .contain-nav-xs{
     height: 7.5vh;
+    width: 100%;
     position: relative;
-    position: -webkit-sticky; /* Pour Safari */ 
+    position: -webkit-sticky;  Pour Safari  
     position: sticky;
     background-color: white;
     top: 0;
     z-index: 1;
     padding-top: 2vh;
-}
+    padding-left: -1vw;
+} */
+
+
 
 /*BODY*/
-.text-end{
+.text-end {
     text-align: end;
 }
 
-.text-start{
+.text-start {
     text-align: start;
 }
 
-.contain {
-    width: 98%;
-}
-
-.mail_button{
+.mail_button {
     background-color: black;
     color: white;
     padding: 0.938rem 1.563rem;
     border: 0.063rem solid;
+    transition: all 0.4s ease;
 }
 
-.mail_button:hover{
+.mail_button:hover {
     background-color: grey;
-    color: white;
-    padding: 0.938rem 1.563rem;
-    border: 0.063rem solid;
-    transition: all .4s ease;
 }
 
-.littlefont{
+.littlefont {
     font-size: 1.25rem;
     margin-left: 11.25vw;
 }
 
-.butmarg{
+.butmarg {
     background-color: transparent;
     color: white;
     border: 0.063rem solid;
 }
 
-.imgpcommun{
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    text-align: center;
-}
-
-.p1{
+.imgpcommun, .p1 {
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2vh 0;
 }
 
-.p2{
-    background-image: url('../img/montagne.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+.p2 {
+    background: url('../img/montagne.jpg') center / cover no-repeat fixed;
     color: white;
     width: 100%;
-    height: auto;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
+    padding: 2vh 0;
 }
 
 @supports (-webkit-touch-callout: none) {
@@ -228,57 +207,19 @@ header {
     }
 }
 
-.textp2{
+.textp2 {
     font-size: 3.125rem;
     margin-left: 11.25vw;
 }
 
-.pintro{
+.pintro, .pcommun {
     text-align: center;
-    /* line-height: 2; */
-    padding-left: 5.063vw;
-    padding-right: 5.063vw;
-    padding-top: 2.16vh;
-}
-
-
-.pcommun{
-    text-align: center;
-    padding-left: 5.063vw;
-    padding-right: 5.063vw;
+    padding: 2.16vh 5.063vw;
 }
 
 .p5{
     list-style-position: inside;
 }
-
-/* .previous{
-    font-size: 4rem;
-    border: none;
-    padding-left: 25vw;
-}
-
-.previous:hover {
-    color: grey;
-}
-
-.previous:active {
-    color: black;
-} */
-
-/* .next{
-    font-size: 4rem;
-    border: none;
-    padding-right: 25vw;
-}
-
-.next:hover {
-    color: grey;
-}
-
-.next:active {
-    color: black;
-} */
 
 .carousel-indicators {
     display: flex;
@@ -298,21 +239,16 @@ header {
 }
 
 .carousel-indicators .active {
-    width: 0.3rem;
-    height: 0.3rem;
     background-color: #fff;
     border: 0.063rem solid #000;
 }
 
-.form{
+.form {
     text-align: center;
-    padding-top: 5.5vh;
-    padding-left: 5vw;
-    padding-right: 5vw;
+    padding: 5.5vh 5vw 0;
 }
 
-
-.celluleform{
+.celluleform {
     margin-top: 8vh;
     border: none;
 }
@@ -340,38 +276,53 @@ header {
 .btn-submit {
     background-color: #000;
     color: #fff;
-    border: none;
-    border-radius: 0;
     padding: 0.521vw 1.042vw;
     margin-top: 2vh;
+    border-radius: 0;
 }
 
 .btn-submit:hover {
     background-color: #444;
 }
 
-.map{
+.map {
     width: 100%;
     height: 60vh;
-    border:0;
-    margin-top: 2.5vh;
-    margin-bottom: 2.5vh;
+    border: 0;
+    margin: 2.5vh 0;
 }
 
 /*FOOTER*/
-footer{
+footer {
     padding: 0.781vw;
     text-align: center;
     font-size: 0.813rem;
 }
 
 
-@media (max-width: 991px) { 
+@media (max-width: 992px) { 
     /*ALL*/
     html, body {
         font-size: 1.5rem;
-        /* overflow-x: hidden; */
+        overflow-x: hidden;
     }
+
+    .contain-nav, .contain-nav-xs {
+        position: fixed;
+        background-color: white;
+        top: 0;
+        width: 100%; /* Pour s'assurer que le menu prend toute la largeur de l'écran */
+        z-index: 1;
+    }
+
+    header .imghg{
+        margin-top: 5vh;
+    }
+
+    .phone_menu {
+        position: relative;
+        left: -5.5vw;
+    } 
 
     /*HEADER*/
     header {
@@ -384,65 +335,39 @@ footer{
         height : 175px;
     }
 
-    .headerbut{
+    .headerbut, .text-end, .text-start, .littlefont {
         text-align: center;
-        padding-left: 0;
+        margin: 0;
     }
 
-    h5 b{
-        font-size: 2rem;
+    .text-end{
+        margin-bottom: .5rem;
     }
 
-    h6{
+    .text-start{
+        margin-top: .5rem;
+    }
+
+    h5 b, h6 {
         font-size: 2rem;
     }
     
     /*BODY*/
-    .p2{
+    .p2 {
         text-align: center;
+        background-attachment: fixed;
     }
 
     .textp2{
         margin-left: 0vw;
     }
 
-    .num_button{
-        padding: 0.938rem 2.6rem;
-    }
-    
-    .num_button:hover{
+    .num_button, .num_buttontransparent{
         padding: 0.938rem 2.6rem;
     }
 
     .mail_button{
         padding: 0.938rem 1.9rem;
-    }
-    
-    .mail_button:hover{
-        padding: 0.938rem 1.9rem;
-    }
-
-    .num_buttontransparent{
-        padding: 0.938rem 2.6rem;
-    }
-    
-    .num_buttontransparent:hover{
-        padding: 0.938rem 2.6rem;
-    }
-
-    .text-end{
-        text-align: center;
-        margin-bottom: .5rem;
-    }
-
-    .text-start{
-        text-align: center;
-        margin-top: .5rem;
-    }
-
-    .littlefont{
-        text-align: center;
-        margin-left: 0;
     }
 
     .carousel-indicators li {
@@ -452,5 +377,10 @@ footer{
     .btn{
         font-size: 1.5rem;
         padding: .5rem 1rem;
+    }
+
+    .reh{
+        bottom: 2vh;
+        right: 4vw;
     }
 }
