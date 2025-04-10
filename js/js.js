@@ -7,7 +7,7 @@
  * @param {string} message :  le message du client
  */
 function afficherEmail(nom, email, telephone, objet, message) {
-    let mailto = `mailto:gouelo@yahoo.fr?subject=${objet}&body=${nom}%0A${telephone}%0A${email}%0A${message}`;
+    let mailto = `mailto:?subject=${objet}&body=${nom}%0A${telephone}%0A${email}%0A${message}`;
     location.href = mailto;
 }
 
